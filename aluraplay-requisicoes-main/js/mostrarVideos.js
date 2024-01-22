@@ -17,9 +17,14 @@ export default function constroiCard(titulo,descricao,url,imagem){
 }
 
 async function listaVideos(){
+    try {
     const listaApi = await conectaApi.listaVideos()
     listaApi.forEach(element => lista.appendChild(
         constroiCard(element.titulo,element.descricao,element.url,element.imagem)))
+
+    } catch{
+        lista.innerHTML = `<h2 class="mensagem_titulo">não foi possivel carregar a lista de vídeos</h2>`
+    }
 }
 
 listaVideos()
