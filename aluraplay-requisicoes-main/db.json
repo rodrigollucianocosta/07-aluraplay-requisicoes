@@ -90,6 +90,20 @@
       "url": "https://www.youtube.com/embed/Zwvq-rlIHAw",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 13
+    },
+    {
+      "id": "b2a4",
+      "titulo": "Conhecendo o NestJS",
+      "descricao": "8 mil visualizações",
+      "url": "https://www.youtube.com/embed/YHpG6t91oW8",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg"
+    },
+    {
+      "id": "b5ad",
+      "titulo": "Conhecendo o NestJS",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/YHpG6t91oW8",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg"
     }
   ]
 }
